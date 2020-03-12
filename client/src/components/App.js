@@ -1,7 +1,13 @@
 import React from "react"
+import Header from "components/Header"
 
-const App = () => {
-    return <h1>Hello there</h1>
+const App = ({children}) => {
+    return (
+        <>
+        <Header />
+        { children }
+        </>
+    )
 }
 
 export default App
