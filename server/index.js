@@ -21,7 +21,7 @@ mongoose.connect(connectURL, {useNewUrlParser: true, useUnifiedTopology: true})
 //  server setup
 console.log(process.env.secret);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const server = http.createServer(app);
 
 server.listen(port);
